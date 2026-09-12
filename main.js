@@ -30,8 +30,8 @@ const questions = [
     },
     {
         question: "Which environment variable file is commonly used for configuration secrets?",
-        options: [".config", ".env", ".secret", ".settings"],
-        answer: 1,
+        options: [".config", ".settings", ".secret", ".env"],
+        answer: 3,
         explanation: "A .env file is commonly used to store environment-specific configuration such as API keys and database credentials. It should normally not be committed when it contains secrets."
     },
     {
@@ -167,8 +167,8 @@ const questions = [
     },
     {
         question: "Which storage is generally cleared when the browser tab/session ends?",
-        options: ["localStorage", "sessionStorage", "Database", "Cookies always"],
-        answer: 1,
+        options: ["localStorage", "Cookies always", "Database", "sessionStorage"],
+        answer: 3,
         explanation: "sessionStorage is associated with a page session and is generally cleared when that session ends."
     },
     {
